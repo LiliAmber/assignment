@@ -17,7 +17,7 @@
             <a [routerLink]="['/country/', country.id]"><h3 class="card-title">
                 {{country.name}}
             </h3></a>
-            <p class="card-text">{{country.population}} people</p>
+            <p class="card-text">{{country.population | number}} people</p>
         </div>
     </div>
 
@@ -27,7 +27,7 @@
             <a [routerLink]="['/country/', country.id]"><h3 class="card-title">
                 {{country.name}}
             </h3></a>
-            <p class="card-text">{{country.area}} km2</p>
+            <p class="card-text">{{country.area | number}} km2</p>
         </div>
     </div>
 </div>

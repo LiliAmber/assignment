@@ -18,7 +18,7 @@ import { NoPageFoundsComponent } from './no-page-founds/no-page-founds.component
     HomeComponent,
     AllCountriesComponent,
     CountryDetailsComponent,
-    NoPageFoundsComponent
+    NoPageFoundsComponent,
   ],
   imports: [
     BrowserModule,

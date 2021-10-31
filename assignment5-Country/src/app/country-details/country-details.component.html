@@ -28,11 +28,11 @@
             </tr>
             <tr>
                 <td>Area</td>
-                <td>{{country.area}} km2</td>
+                <td>{{country.area | number}} km2</td>
             </tr>
             <tr>
                 <td>Population</td>
-                <td>{{country.population}}</td>
+                <td>{{country.population | number}}</td>
             </tr>
             <tr [ngSwitch]="country.currency">
                 <td>GDP</td>
