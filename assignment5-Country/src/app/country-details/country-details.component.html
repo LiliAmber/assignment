@@ -34,9 +34,14 @@
                 <td>Population</td>
                 <td>{{country.population}}</td>
             </tr>
-            <tr>
+            <tr [ngSwitch]="country.currency">
                 <td>GDP</td>
-                <td>{{country.GDP}}</td>
+                <td *ngSwitchCase ="'USD'">{{country.GDP | currency: 'USD'}}</td>
+                <td *ngSwitchCase ="'RUB'">{{country.GDP | currency: 'RUB'}}</td>
+                <td *ngSwitchCase ="'CAD'">{{country.GDP | currency: 'CAD'}}</td>
+                <td *ngSwitchCase ="'JPY'">{{country.GDP | currency: 'JPY'}}</td>
+                <td *ngSwitchCase ="'CNY'">{{country.GDP | currency: 'CNY'}}</td>
+                <td *ngSwitchDefault>{{country.GDP}}</td>
             </tr>
             <tr>
                 <td>Currency</td>
