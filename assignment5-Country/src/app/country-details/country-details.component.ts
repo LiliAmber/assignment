@@ -24,8 +24,6 @@ export class CountryDetailsComponent implements OnInit {
     this.getCountryById(this.countryId)
   }
   getCountryById(id: number) {
-    // console.log(id, "id product")
-    // console.log(typeof id, 'id data type')
     this.countriService 
     .getCountryById(id)
     .subscribe(c => this.country = c)

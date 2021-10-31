@@ -3,46 +3,46 @@ import { Country } from "./County";
 export const COUNTRIES: Country[] = [
     {
         id: 1,
-        name: 'Russia',
-        capital: 'Moscow',
-        area: 123456,
-        population: 23456.0909021,
-        GDP: 123468713,
-        currency: 'uang moskow'
+        name: 'United States',
+        capital: ' Washington, D.C.',
+        area: 9826675,
+        population: 334655000,
+        GDP: 66144,
+        currency: 'USD'
     },
     {
         id: 2,
-        name: 'Russia1',
+        name: 'Russia',
         capital: 'Moscow',
-        area: 123457,
-        population: 23456.0909022,
-        GDP: 123468713,
-        currency: 'uang moskow'
+        area: 17125191,
+        population: 146793744,
+        GDP: 10793,
+        currency: 'RUB'
     },
     {
         id: 3,
-        name: 'Russia2',
-        capital: 'Moscow',
-        area: 123458,
-        population: 23456.0909023,
-        GDP: 123468713,
-        currency: 'uang moskow'
+        name: 'Japan',
+        capital: 'Tokyo',
+        area: 377974,
+        population: 125360000,
+        GDP: 40733,
+        currency: 'JPY'
     },
     {   id: 4,
-        name: 'Russia3',
-        capital: 'Moscow',
-        area: 123459,
-        population: 23456.0909024,
-        GDP: 123468713,
-        currency: 'uang moskow'
+        name: 'China',
+        capital: 'Beijing',
+        area: 9596961,
+        population:  1411778724,
+        GDP: 11713,
+        currency: 'CNY'
     },
     {
         id: 5,
-        name: 'Russia4',
-        capital: 'Moscow',
-        area: 123451,
-        population: 23456.0909028,
-        GDP: 123468713,
-        currency: 'uang moskow'
+        name: 'Canada',
+        capital: ' Ottawa',
+        area: 9984670,
+        population: 38246108,
+        GDP: 45871,
+        currency: 'CAD'
     }
 ]
