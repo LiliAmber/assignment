@@ -1,0 +1,23 @@
+<div class="container">
+    <h1 class="text-center my-5">List of All Countries in our Database</h1>
+
+    <div class="container">
+        <div class="row d-flex">
+          <div class="col-sm-12 text-center mt-5">
+            <a [routerLink]="['/home/']"><button class="btn btn-primary btn-md">Go Back To HomePage</button></a>
+              <button class="btn btn-danger btn-md text-white" disabled>List of All Countries</button>
+          </div>
+        </div>
+      </div>
+
+    <div class="separator">
+        <div class="box-200" id="maroon-box" *ngFor="let country of countries">
+            <a [routerLink]="['/country/', country.id]"><h3 class="card-title">
+                {{country.name}}
+            </h3></a>
+            <p>Capital</p>
+            <p class="card-text">({{country.capital}})</p>
+        </div>
+    </div>
+</div>
+

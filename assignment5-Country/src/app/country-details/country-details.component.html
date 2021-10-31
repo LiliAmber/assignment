@@ -1,0 +1,49 @@
+<!-- <p>country-details works!</p> -->
+<div class="container">
+    <h1 class="text-center my-5">Fun Facts About Countries</h1>
+    <div class="container">
+        <div class="row d-flex">
+          <div class="col-sm-12 text-center mt-5">
+            <a [routerLink]="['/home/']"><button class="btn btn-primary btn-md">Go Back To HomePage</button></a>
+            <a [routerLink]="['/allCountries/']"><button class="btn btn-danger btn-md text-white">List of All Countries</button></a>
+          </div>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <h1 class="card-header">
+          {{country.name}}
+        </h1>
+        <table class="card-table table">
+          <!-- <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Data</th>
+            </tr>
+          </thead> -->
+          <tbody>
+            <tr>
+              <td>Capital</td>
+              <td>{{country.capital}}</td>
+            </tr>
+            <tr>
+                <td>Area</td>
+                <td>{{country.area}} km2</td>
+            </tr>
+            <tr>
+                <td>Population</td>
+                <td>{{country.population}}</td>
+            </tr>
+            <tr>
+                <td>GDP</td>
+                <td>{{country.GDP}}</td>
+            </tr>
+            <tr>
+                <td>Currency</td>
+                <td>{{country.currency}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+</div>

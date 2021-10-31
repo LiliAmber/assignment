@@ -1,0 +1,34 @@
+.separator {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    grid-template-columns: repeat(3);
+    align-items: center;
+}
+.box-200 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    font-size: 15pt;
+    text-align: center;
+}
+
+#maroon-box {
+    color: #FFFFFF;
+    background: #96281B;
+}
+
+#blue-box {
+    color: #FFFFFF;
+    background: #4B77BE;
+}
+
+#green-box {
+    color: #FFFFFF;
+    background: #26A65B;
+}

@@ -1,0 +1,35 @@
+<!-- <p>home works!</p> -->
+<div class="container">
+    <h1 class="text-center my-5">Three Most Populated Countries</h1>
+    <!-- <app-all-countries-btn></app-all-countries-btn> 
+    -->
+    <div class="container">
+        <div class="row d-flex">
+          <div class="col-sm-12 text-center mt-5">
+              <button class="btn btn-primary btn-md" disabled>Go Back To HomePage</button>
+              <a [routerLink]="['/allCountries/']"><button class="btn btn-danger btn-md text-white">List of All Countries</button></a>
+          </div>
+        </div>
+      </div>
+
+    <div class="separator">
+        <div class="box-200" id="maroon-box" *ngFor="let country of mostPopulated">
+            <a [routerLink]="['/country/', country.id]"><h3 class="card-title">
+                {{country.name}}
+            </h3></a>
+            <p class="card-text">{{country.population}} people</p>
+        </div>
+    </div>
+
+    <h1 class="text-center my-5">Three Most Largest Countries</h1>
+    <div class="separator">
+        <div class="box-200" id="green-box" *ngFor="let country of mostLargest">
+            <a [routerLink]="['/country/', country.id]"><h3 class="card-title">
+                {{country.name}}
+            </h3></a>
+            <p class="card-text">{{country.area}} km2</p>
+        </div>
+    </div>
+</div>
+
+
