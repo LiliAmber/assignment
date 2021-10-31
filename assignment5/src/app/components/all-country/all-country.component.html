@@ -1,0 +1,15 @@
+<!-- <p>all-country works!</p> -->
+ <!--LIST ALL COUNTRIES-->
+ <div class="separator">
+    <h1>List of all countries in database</h1>
+    
+    <div class="box-100" id="maroon-box">Saya adalah Box Red berukuran 100</div>
+    <div *ngFor="let country of countries" class="box-200" id="maroon-box">{{country.name}}</div>
+</div>
+
+<div class="separator">
+    <h1>Most Populated Country</h1>
+    
+    <div class="box-100" id="maroon-box">Saya adalah Box Red berukuran 100</div>
+    <div *ngFor="let sorted of sortPopulate" class="box-200" id="maroon-box">{{sorted.name}}</div>
+</div>

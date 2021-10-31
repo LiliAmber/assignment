@@ -1,0 +1,53 @@
+.separator {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    }
+        
+    .box-100 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    font-size: 15pt;
+    text-align: center;
+    }
+    
+    .box-200 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    font-size: 15pt;
+    text-align: center;
+    }
+    
+    #maroon-box {
+    color: #FFFFFF;
+    background: #96281B;
+    }
+    
+    #dark-blue-box {
+    color: #FFFFFF;
+    background: #4B77BE;
+    }
+    
+    .green-background {
+    color: #FFFFFF;
+    background: #26A65B;
+    }
+    
+    .box-list div {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    font-size: 15pt;
+    text-align: center;
+    background: #353535;
+    color: #FFFFFF;
+    }
+    
